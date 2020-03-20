@@ -1,13 +1,12 @@
-# Binance Chain JavaScript SDK
+# Binance Chain JavaScript SDK For Lambda
 
 The Binance Chain JavaScript SDK allows browsers and node.js clients to interact with Binance Chain. It includes the following core components:
 
 * **crypto** - core cryptographic functions.
-* **amino** - [amino](https://github.com/binance-chain/docs-site/blob/master/docs/encoding.md) (protobuf-like) encoding and decoding of transactions.
-* **client** - implementations of Binance Chain transaction types, such as for transfers and trading.
+
+
 * **accounts** - management of "accounts" and wallets, including seed and encrypted mnemonic generation.
-* **ledger** - Ledger Nano S/X support via HID, U2F and Web BLE (Bluetooth).
-* **rpc** - Node RPC client.
+
 
 # Installation
 

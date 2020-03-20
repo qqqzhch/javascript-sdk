@@ -26,7 +26,7 @@ const DECODED_ADDRESS_LEN = 20
 const CURVE = "secp256k1"
 
 //hdpath
-const HDPATH = "44'/714'/0'/0/"
+const HDPATH = "44'/364'/0'/0/"
 
 const ec = new EC(CURVE)
 
@@ -70,7 +70,7 @@ export const checkAddress = (address, hrp) => {
  * @param {*} prefix the address prefix
  * @param {*} type the output type (default: hex)
  */
-export const encodeAddress = (value, prefix = "tbnb", type = "hex") => {
+export const encodeAddress = (value, prefix = "lambda", type = "hex") => {
   const words = bech32.toWords(Buffer.from(value, type))
   return bech32.encode(prefix, words)
 }
